@@ -46,7 +46,7 @@
 
 # 1-4. Fill1
 # train_model_Fill1 = train_and_evaluate_model(
-#     'lgbm', train_data_Fill1
+#     'lgbm', train_data_fill1
 #     , n_estimators=1452
 #     , num_leaves=1581
 #     , max_depth=22

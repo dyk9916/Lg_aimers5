@@ -223,38 +223,40 @@
 # 3-4. Fill1
 # train_model_Fill1 = train_and_evaluate_model(
 #     'cat', train_data_fill1
-#     , iterations=1080
-#     , learning_rate=0.27700365060588783
-#     , depth=5
-#     , l2_leaf_reg=1.253973786965849
-#     , random_strength=9.22514112631014
-#     , bagging_temperature=8.810531538725536
-#     , border_count=205
-#     , scale_pos_weight=1.1080635788286048
+#     , iterations=1489
+#     , learning_rate=0.011481405951174946
+#     , depth=6
+#     , l2_leaf_reg=0.12082259365361882
+#     , random_strength=2.5111358694495056
+#     , bagging_temperature=2.06264856742851
+#     , border_count=331
+#     , scale_pos_weight=2.3505422278535173
+#     , grow_policy = 'Lossguide'
 #     , random_seed = RANDOM_STATE
 #     , eval_metric = 'F1'
 #     , logging_level = 'Silent'
 #     , boosting_type = 'Plain'
 # )
-# F1 Score: xx
+# F1 Score: 0.2425742574257426
 
 # 3-5. Fill2
-# train_model_Fill2 = train_and_evaluate_model(
-#     'cat', train_data_fill2
-#     , iterations=942
-#     , learning_rate=0.0663329773137215
-#     , depth=9
-#     , l2_leaf_reg=2.8579737675612154
-#     , random_strength=7.119939923407122
-#     , bagging_temperature=7.446487630118915
-#     , border_count=73
-#     , scale_pos_weight=1.1824356154616613
+# train_model_Fill1 = train_and_evaluate_model(
+#     'cat', train_data_fill1
+#     , iterations=481
+#     , learning_rate=0.018742270357007457
+#     , depth=5
+#     , l2_leaf_reg=1.0871571324663387
+#     , random_strength=3.49632241801363
+#     , bagging_temperature=5.717049796462913
+#     , border_count=183
+#     , scale_pos_weight=3.4406776189795383
+#     , grow_policy = 'SymmetricTree'
 #     , random_seed = RANDOM_STATE
 #     , eval_metric = 'F1'
 #     , logging_level = 'Silent'
 #     , boosting_type = 'Plain'
 # )
-# F1 Score: xx
+# F1 Score: 0.24322446143154972
 
 ## ------------ 4. rf(randomforest)
 

@@ -77,92 +77,92 @@
 # 2-1. total
 # train_model_All = train_and_evaluate_model(
 #     'xgb', train_data
-#     , n_estimators = 488
-#     , learning_rate = 0.27456156507923796
-#     , max_depth = 18
-#     , alpha = 0.001345329538356762
-#     , gamma = 0.001271261094255318
-#     , reg_alpha = 0.8757519133030134
-#     , reg_lambda = 0.08373579326505055
-#     , colsample_bytree = 0.8186279659279335
-#     , subsample = 0.24909941675865316
-#     , objective = 'binary:logistic'
-#     , tree_method = 'exact'
-#     , random_state=RANDOM_STATE
+#     n_estimators = 2287, 
+    # learning_rate = 0.046904208411195795, 
+    # max_depth = 8, 
+    # alpha = 1.9343531171735368e-05, 
+    # gamma = 0.002118564280859176, 
+    # reg_alpha = 0.6827713868263061, 
+    # reg_lambda = 0.05035980721174918, 
+    # colsample_bytree = 0.8959193125044248, 
+    # subsample = 0.43471952905681815,
+    # objective = 'binary:logistic',  # 이진 분류
+    # tree_method = "exact", 
+    # random_state=RANDOM_STATE
 # )
-# F1 Score: XX
+# F1 Score: 0.26099290780141843
 
 # 2-2. Dam
 # train_model_Dam = train_and_evaluate_model(
 #     'xgb', train_data_dam
-#     , n_estimators = 488
-#     , learning_rate = 0.27456156507923796
-#     , max_depth = 18
-#     , alpha = 0.001345329538356762
-#     , gamma = 0.001271261094255318
-#     , reg_alpha = 0.8757519133030134
-#     , reg_lambda = 0.08373579326505055
-#     , colsample_bytree = 0.8186279659279335
-#     , subsample = 0.24909941675865316
-#     , objective = 'binary:logistic'
-#     , tree_method = 'exact'
-#     , random_state=RANDOM_STATE
+#     , n_estimators = 1509
+    # , learning_rate = 0.06418917852996714
+    # , max_depth = 6
+    # , alpha = 0.00017309557032608048
+    # , gamma = 0.00398067155434722
+    # , reg_alpha = 0.756006595834120
+    # , reg_lambda = 0.3962538649486449
+    # , colsample_bytree =0.8752205595930229
+    # , subsample = 0.224637741333797
+    # , objective = 'binary:logistic'
+    # , tree_method = 'exact'
+    # , random_state=RANDOM_STATE
 # )
-# F1 Score: XX
+# F1 Score: 0.23582089552238802
 
 # 2-3. AutoClave
 # train_model_AutoClave = train_and_evaluate_model(
 #     'xgb', train_data_autoclave
-#     , n_estimators = 488
-#     , learning_rate = 0.27456156507923796
-#     , max_depth = 18
-#     , alpha = 0.001345329538356762
-#     , gamma = 0.001271261094255318
-#     , reg_alpha = 0.8757519133030134
-#     , reg_lambda = 0.08373579326505055
-#     , colsample_bytree = 0.8186279659279335
-#     , subsample = 0.24909941675865316
-#     , objective = 'binary:logistic'
-#     , tree_method = 'exact'
-#     , random_state=RANDOM_STATE
+#     n_estimators = 1539, 
+    # learning_rate = 0.026860419341696404, 
+    # max_depth = 14, 
+    # alpha = 1.9237525550524492e-05, 
+    # gamma = 2.2016346534611754e-05, 
+    # reg_alpha = 0.9148863773292526, 
+    # reg_lambda = 0.6194458787523232, 
+    # colsample_bytree = 0.902872150299903, 
+    # subsample = 0.10750014546599479,
+    # objective = 'binary:logistic',  # 이진 분류
+    # tree_method = "exact", 
+    # random_state=RANDOM_STATE
 # )
-# F1 Score: XX
+# F1 Score: 0.2530487804878049
 
 # 2-4. Fill1
 # train_model_Fill1 = train_and_evaluate_model(
-#     'xgb', train_data_fill1
-#     , n_estimators = 488
-#     , learning_rate = 0.27456156507923796
-#     , max_depth = 18
-#     , alpha = 0.001345329538356762
-#     , gamma = 0.001271261094255318
-#     , reg_alpha = 0.8757519133030134
-#     , reg_lambda = 0.08373579326505055
-#     , colsample_bytree = 0.8186279659279335
-#     , subsample = 0.24909941675865316
-#     , objective = 'binary:logistic'
-#     , tree_method = 'exact'
-#     , random_state=RANDOM_STATE
+#         'xgb', train_data_fill1,
+#     n_estimators = 1707, 
+#     learning_rate = 0.0321470219836192, 
+#     max_depth = 7, 
+#     alpha = 7.368872823521818e-05, 
+#     gamma = 0.0007930035188326916, 
+#     reg_alpha = 0.644199314174124, 
+#     reg_lambda = 0.588270569327407, 
+#     colsample_bytree = 0.883929103208459, 
+#     subsample = 0.2534703342501092,
+#     objective = 'binary:logistic',
+#     tree_method = 'exact',
+#     random_state=RANDOM_STATE
 # )
-# F1 Score: XX
+# F1 Score: 0.20763358778625954
 
 # 2-5. Fill2
 # train_model_Fill2 = train_and_evaluate_model(
 #     'xgb', train_data_fill2
-#     , n_estimators = 488
-#     , learning_rate = 0.27456156507923796
-#     , max_depth = 18
-#     , alpha = 0.001345329538356762
-#     , gamma = 0.001271261094255318
-#     , reg_alpha = 0.8757519133030134
-#     , reg_lambda = 0.08373579326505055
-#     , colsample_bytree = 0.8186279659279335
-#     , subsample = 0.24909941675865316
-#     , objective = 'binary:logistic'
-#     , tree_method = 'exact'
-#     , random_state=RANDOM_STATE
+#     n_estimators = 1998, 
+    # learning_rate = 0.030898693059763598, 
+    # max_depth = 8, 
+    # alpha = 0.0017554538174868774, 
+    # gamma = 0.0007257577447593802, 
+    # reg_alpha = 0.7581280398368035, 
+    # reg_lambda = 0.5872331353519633, 
+    # colsample_bytree = 0.56275606593282, 
+    # subsample = 0.8342870707789082,
+    # objective = 'binary:logistic',
+    # tree_method = 'exact',
+    # random_state=RANDOM_STATE
 # )
-# F1 Score: XX
+# F1 Score: 0.24233983286908078
 
 ## ------------ 3. cat(catboost)
 

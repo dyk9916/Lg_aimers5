@@ -5,72 +5,72 @@
 # 1-1. total
 # train_model_All = train_and_evaluate_model(
 #     'lgbm', train_data
-#     , n_estimators=2748
-#     , num_leaves=657
-#     , max_depth=256
-#     , learning_rate=0.001043279508273329 
-#     , min_child_samples=58
+#     , n_estimators=2383
+#     , num_leaves=2528
+#     , max_depth=343
+#     , learning_rate=0.04661896043153508
+#     , min_child_samples=209
 #     , boosting_type='dart'
 #     , random_state=RANDOM_STATE
 #     , verbose=-1
 # )
-# F1 Score: XX
+# F1 Score: 0.24501424501424504
 
 # 1-2. Dam
 # train_model_Dam = train_and_evaluate_model(
 #     'lgbm', train_data_dam
-#     , n_estimators=2748
-#     , num_leaves=657
-#     , max_depth=256
-#     , learning_rate=0.001043279508273329 
-#     , min_child_samples=58
+#     , n_estimators=1467
+#     , num_leaves=2545
+#     , max_depth=37
+#     , learning_rate=0.04353920224587149 
+#     , min_child_samples=83
 #     , boosting_type='dart'
 #     , random_state=RANDOM_STATE
 #     , verbose=-1
 # )
-# F1 Score: XX
+# F1 Score: 0.2222222222222222
 
 # 1-3. AutoClave
 # train_model_AutoClave = train_and_evaluate_model(
 #     'lgbm', train_data_autoclave
-#     , n_estimators=2748
-#     , num_leaves=657
-#     , max_depth=256
-#     , learning_rate=0.001043279508273329 
-#     , min_child_samples=58
+#     , n_estimators=1563
+#     , num_leaves=1885
+#     , max_depth=15
+#     , learning_rate=0.07033655355880039 
+#     , min_child_samples=158
 #     , boosting_type='dart'
 #     , random_state=RANDOM_STATE
 #     , verbose=-1
 # )
-# F1 Score: XX
+# F1 Score: 0.2511078286558346
 
 # 1-4. Fill1
 # train_model_Fill1 = train_and_evaluate_model(
 #     'lgbm', train_data_Fill1
-#     , n_estimators=2748
-#     , num_leaves=657
-#     , max_depth=256
-#     , learning_rate=0.001043279508273329 
-#     , min_child_samples=58
+#     , n_estimators=1452
+#     , num_leaves=1581
+#     , max_depth=22
+#     , learning_rate=0.002000452888170992 
+#     , min_child_samples=43
 #     , boosting_type='dart'
 #     , random_state=RANDOM_STATE
 #     , verbose=-1
 # )
-# F1 Score: XX
+# F1 Score: 0.2260668973471742
 
 # 1-5. Fill2
 # train_model_Fill2 = train_and_evaluate_model(
 #     'lgbm', train_data_fill2
-#     , n_estimators=2748
-#     , num_leaves=657
-#     , max_depth=256
-#     , learning_rate=0.001043279508273329 
-#     , min_child_samples=58
+#     , n_estimators=1632
+#     , num_leaves=1426
+#     , max_depth=8
+#     , learning_rate=0.07487990991624197 
+#     , min_child_samples=90
 #     , boosting_type='dart'
 #     , random_state=RANDOM_STATE
 #     , verbose=-1
 # )
-# F1 Score: XX
+# F1 Score: 0.21999999999999997
 
 ## ------------ 2. xgb(xgboost)
 
@@ -261,67 +261,67 @@
 # 4-1. total
 # train_model_All = train_and_evaluate_model(
 #     'rf', train_data
-#     , n_estimators = 1959
-#     , max_depth = 48
-#     , min_samples_split = 5
+#     , n_estimators = 1083
+#     , max_depth = 43
+#     , min_samples_split = 6
 #     , min_samples_leaf = 1
 #     , criterion = 'entropy'
-#     , class_weight = 'balanced'
+#     , class_weight = balanced
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: xx
+# F1 Score: 0.2408026755852843
 
 # 4-2. Dam
 # train_model_Dam = train_and_evaluate_model(
 #     'rf', train_data_dam
-#     , n_estimators = 1959
-#     , max_depth = 48
-#     , min_samples_split = 5
+#     , n_estimators = 1330
+#     , max_depth = 36
+#     , min_samples_split = 6
 #     , min_samples_leaf = 1
 #     , criterion = 'entropy'
-#     , class_weight = 'balanced'
+#     , bootstrap = False
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: xx
+# F1 Score: 0.20075757575757575
 
 # 4-3. AutoClave
 # train_model_AutoClave = train_and_evaluate_model(
 #     'rf', train_data_autoclave
-#     , n_estimators = 1959
-#     , max_depth = 48
-#     , min_samples_split = 5
+#     , n_estimators = 1103
+#     , max_depth = 36
+#     , min_samples_split = 8
 #     , min_samples_leaf = 1
 #     , criterion = 'entropy'
-#     , class_weight = 'balanced'
+#     , bootstrap = False
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: xx
+# F1 Score: 0.2214765100671141
 
 # 4-4. Fill1
 # train_model_Fill1 = train_and_evaluate_model(
 #     'rf', train_data_fill1
-#     , n_estimators = 1959
-#     , max_depth = 48
-#     , min_samples_split = 5
+#     , n_estimators = 1298
+#     , max_depth = 20
+#     , min_samples_split = 6
 #     , min_samples_leaf = 1
 #     , criterion = 'entropy'
-#     , class_weight = 'balanced'
+#     , bootstrap = False
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: xx
+# F1 Score: 0.1932938856015779
 
 # 4-5. Fill2
 # train_model_Fill2 = train_and_evaluate_model(
 #     'rf', train_data_fill2
-#     , n_estimators = 1959
-#     , max_depth = 48
-#     , min_samples_split = 5
+#     , n_estimators = 2879
+#     , max_depth = 27
+#     , min_samples_split = 4
 #     , min_samples_leaf = 1
 #     , criterion = 'entropy'
-#     , class_weight = 'balanced'
+#     , bootstrap = False
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: xx
+# F1 Score: 0.18563922942206654
 
 ## ------------ 5. et(extratree)
 

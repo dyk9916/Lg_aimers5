@@ -169,56 +169,59 @@
 # 3-1. total
 # train_model_All = train_and_evaluate_model(
 #     'cat', train_data
-#     , iterations=1080
-#     , learning_rate=0.27700365060588783
-#     , depth=5
-#     , l2_leaf_reg=1.253973786965849
-#     , random_strength=9.22514112631014
-#     , bagging_temperature=8.810531538725536
-#     , border_count=205
-#     , scale_pos_weight=1.1080635788286048
+#     , iterations=2752
+#     , learning_rate=0.01750223610140175
+#     , depth=7
+#     , l2_leaf_reg=1.0323106799772723
+#     , random_strength=11.120538157516553
+#     , bagging_temperature=9.844903580231264
+#     , border_count=140
+#     , scale_pos_weight=2.5890657068422374
+#     , 'grow_policy' = 'Depthwise'
 #     , random_seed = RANDOM_STATE
 #     , eval_metric = 'F1'
 #     , logging_level = 'Silent'
 #     , boosting_type = 'Plain'
 # )
-# F1 Score: xx
+# F1 Score: 0.2404092071611253
 
 # 3-2. Dam
 # train_model_Dam = train_and_evaluate_model(
 #     'cat', train_data_dam
-#     , iterations=1415
-#     , learning_rate=0.07701213944704571
-#     , depth=12
-#     , l2_leaf_reg=2.6328100798019762 
-#     , random_strength=9.510403770860803
-#     , bagging_temperature=5.8234148306877715
-#     , border_count=258
-#     , scale_pos_weight=0.8513945387463904
+#     , iterations=2083
+#     , learning_rate=0.023925705983940986
+#     , depth=11
+#     , l2_leaf_reg=0.05919257514332274
+#     , random_strength=7.259397831551647
+#     , bagging_temperature=5.39094676652102
+#     , border_count=234
+#     , scale_pos_weight=1.776413991309166
+#     , grow_policy = 'Lossguide'
 #     , random_seed = RANDOM_STATE
 #     , eval_metric = 'F1'
 #     , logging_level = 'Silent'
 #     , boosting_type = 'Plain'
 # )
-# F1 Score: xx
+# F1 Score: 0.2450704225352113
 
 # 3-3. AutoClave
 # train_model_AutoClave = train_and_evaluate_model(
 #     'cat', train_data_autoclave
-#     , iterations=672
-#     , learning_rate=0.32067318144871304
-#     , depth=4
-#     , l2_leaf_reg=4.200323262290698 
-#     , random_strength=2.1487257714690915
-#     , bagging_temperature=6.901535824166224
-#     , border_count=81
-#     , scale_pos_weight=1.0091261797689637
+#     , iterations=2786
+#     , learning_rate=0.016342560305036093
+#     , depth=8
+#     , l2_leaf_reg=3.7187150890684246 
+#     , random_strength=0.13164684607188099
+#     , bagging_temperature=9.823498597792092
+#     , border_count=158
+#     , scale_pos_weight=1.8735070170496537
+#     , grow_policy = 'SymmetricTree'
 #     , random_seed = RANDOM_STATE
 #     , eval_metric = 'F1'
 #     , logging_level = 'Silent'
 #     , boosting_type = 'Plain'
 # )
-# F1 Score: xx
+# F1 Score: 0.24691358024691357
 
 # 3-4. Fill1
 # train_model_Fill1 = train_and_evaluate_model(
@@ -240,8 +243,8 @@
 # F1 Score: 0.2425742574257426
 
 # 3-5. Fill2
-# train_model_Fill1 = train_and_evaluate_model(
-#     'cat', train_data_fill1
+# train_model_Fill2 = train_and_evaluate_model(
+#     'cat', train_data_fill2
 #     , iterations=481
 #     , learning_rate=0.018742270357007457
 #     , depth=5

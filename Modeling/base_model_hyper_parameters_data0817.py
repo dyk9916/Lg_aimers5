@@ -205,20 +205,21 @@
 # 3-3. AutoClave
 # train_model_AutoClave = train_and_evaluate_model(
 #     'cat', train_data_autoclave
-#     , iterations=672
-#     , learning_rate=0.32067318144871304
-#     , depth=4
-#     , l2_leaf_reg=4.200323262290698 
-#     , random_strength=2.1487257714690915
-#     , bagging_temperature=6.901535824166224
-#     , border_count=81
-#     , scale_pos_weight=1.0091261797689637
+#     , iterations=2786
+#     , learning_rate=0.016342560305036093
+#     , depth=8
+#     , l2_leaf_reg=3.7187150890684246 
+#     , random_strength=0.13164684607188099
+#     , bagging_temperature=9.823498597792092
+#     , border_count=158
+#     , scale_pos_weight=1.8735070170496537
+#     , grow_policy = 'SymmetricTree'
 #     , random_seed = RANDOM_STATE
 #     , eval_metric = 'F1'
 #     , logging_level = 'Silent'
 #     , boosting_type = 'Plain'
 # )
-# F1 Score: xx
+# F1 Score: 0.24691358024691357
 
 # 3-4. Fill1
 # train_model_Fill1 = train_and_evaluate_model(
@@ -240,8 +241,8 @@
 # F1 Score: 0.2425742574257426
 
 # 3-5. Fill2
-# train_model_Fill1 = train_and_evaluate_model(
-#     'cat', train_data_fill1
+# train_model_Fill2 = train_and_evaluate_model(
+#     'cat', train_data_fill2
 #     , iterations=481
 #     , learning_rate=0.018742270357007457
 #     , depth=5

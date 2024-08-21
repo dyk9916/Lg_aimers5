@@ -177,7 +177,7 @@
 #     , bagging_temperature=9.844903580231264
 #     , border_count=140
 #     , scale_pos_weight=2.5890657068422374
-#     , 'grow_policy': 'Depthwise'
+#     , 'grow_policy' = 'Depthwise'
 #     , random_seed = RANDOM_STATE
 #     , eval_metric = 'F1'
 #     , logging_level = 'Silent'

@@ -96,19 +96,19 @@
 # train_model_Dam = train_and_evaluate_model(
 #     'xgb', train_data_dam
 #     , n_estimators = 1509
-    # , learning_rate = 0.06418917852996714
-    # , max_depth = 6
-    # , alpha = 0.00017309557032608048
-    # , gamma = 0.00398067155434722
-    # , reg_alpha = 0.756006595834120
-    # , reg_lambda = 0.3962538649486449
-    # , colsample_bytree =0.8752205595930229
-    # , subsample = 0.224637741333797
-    # , objective = 'binary:logistic'
-    # , tree_method = 'exact'
-    # , random_state=RANDOM_STATE
+#     , learning_rate = 0.06418917852996714
+#     , max_depth = 6
+#     , alpha = 0.00017309557032608048
+#     , gamma = 0.00398067155434722
+#     , reg_alpha = 0.756006595834120
+#     , reg_lambda = 0.3962538649486449
+#     , colsample_bytree =0.8752205595930229
+#     , subsample = 0.224637741333797
+#     , objective = 'binary:logistic'
+#     , tree_method = 'exact'
+#     , random_state=RANDOM_STATE
 # )
-# F1 Score: 0.23582089552238802
+# F1 Score: 0.2385321100917431
 
 # 2-3. AutoClave
 # train_model_AutoClave = train_and_evaluate_model(
@@ -130,7 +130,7 @@
 
 # 2-4. Fill1
 # train_model_Fill1 = train_and_evaluate_model(
-#         'xgb', train_data_fill1,
+#     'xgb', train_data_fill1,
 #     n_estimators = 1707, 
 #     learning_rate = 0.0321470219836192, 
 #     max_depth = 7, 
@@ -144,7 +144,7 @@
 #     tree_method = 'exact',
 #     random_state=RANDOM_STATE
 # )
-# F1 Score: 0.20763358778625954
+# F1 Score: 0.2297734627831715
 
 # 2-5. Fill2
 # train_model_Fill2 = train_and_evaluate_model(
@@ -169,21 +169,21 @@
 # 3-1. total
 # train_model_All = train_and_evaluate_model(
 #     'cat', train_data
-#     , iterations=2752
-#     , learning_rate=0.01750223610140175
-#     , depth=7
-#     , l2_leaf_reg=1.0323106799772723
-#     , random_strength=11.120538157516553
-#     , bagging_temperature=9.844903580231264
-#     , border_count=140
-#     , scale_pos_weight=2.5890657068422374
-#     , 'grow_policy' = 'Depthwise'
+#     , iterations=1852
+#     , learning_rate=0.19270140909662298
+#     , depth=11
+#     , l2_leaf_reg=1.3258713856672897
+#     , random_strength=9.206702306227765
+#     , bagging_temperature=10.55412053150983
+#     , border_count=255
+#     , scale_pos_weight=1.5636124382284884
+#     , 'grow_policy' = 'Lossguide'
 #     , random_seed = RANDOM_STATE
 #     , eval_metric = 'F1'
 #     , logging_level = 'Silent'
 #     , boosting_type = 'Plain'
 # )
-# F1 Score: 0.2404092071611253
+# F1 Score: 0.2518301610541727
 
 # 3-2. Dam
 # train_model_Dam = train_and_evaluate_model(

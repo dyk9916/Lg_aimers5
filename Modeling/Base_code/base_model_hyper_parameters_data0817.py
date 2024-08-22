@@ -333,67 +333,67 @@
 # 5-1. total
 # train_model_All = train_and_evaluate_model(
 #     'et', train_data
-#     , n_estimators = 1959
-#     , max_depth = 48
-#     , min_samples_split = 5
+#     , n_estimators = 2884
+#     , max_depth = 56
+#     , min_samples_split = 3
 #     , min_samples_leaf = 1
 #     , criterion = 'entropy'
 #     , bootstrap = False
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: xx
+# F1 Score: 0.2034548944337812
 
 # 5-2. Dam
 # train_model_Dam = train_and_evaluate_model(
 #     'et', train_data_dam
-#     , n_estimators = 1959
-#     , max_depth = 48
-#     , min_samples_split = 5
+#     , n_estimators = 2242
+#     , max_depth = 32
+#     , min_samples_split = 2
 #     , min_samples_leaf = 1
 #     , criterion = 'entropy'
 #     , bootstrap = False
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: xx
+# F1 Score: 0.20063694267515925
 
 # 5-3. AutoClave
 # train_model_AutoClave = train_and_evaluate_model(
-#     'et', train_data_autoclave
-#     , n_estimators = 1959
-#     , max_depth = 48
-#     , min_samples_split = 5
-#     , min_samples_leaf = 1
-#     , criterion = 'entropy'
-#     , bootstrap = False
-#     , random_state=RANDOM_STATE
+#     'et', train_data_autoclave,
+#     n_estimators = 2708,
+#     max_depth = 41,
+#     min_samples_split = 8,
+#     min_samples_leaf = 1,
+#     criterion = 'entropy',
+#     bootstrap = False,
+#     random_state=RANDOM_STATE
 # )
-# F1 Score: xx
+# F1 Score: 0.2409937888198758
 
 # 5-4. Fill1
 # train_model_Fill1 = train_and_evaluate_model(
-#     'et', train_data_fill1
-#     , n_estimators = 1959
-#     , max_depth = 48
-#     , min_samples_split = 5
-#     , min_samples_leaf = 1
-#     , criterion = 'entropy'
-#     , bootstrap = False
-#     , random_state=RANDOM_STATE
+    # 'et', train_data_fill1,
+    # n_estimators = 1520,
+    # max_depth = 30,
+    # min_samples_split = 2,
+    # min_samples_leaf = 1,
+    # criterion = 'entropy',
+    # bootstrap = False,
+    # random_state=RANDOM_STATE
 # )
-# F1 Score: xx
+# F1 Score: 0.19471153846153846
 
 # 5-5. Fill2
 # train_model_Fill2 = train_and_evaluate_model(
-#     'et', train_data_fill2
-#     , n_estimators = 1959
-#     , max_depth = 48
-#     , min_samples_split = 5
-#     , min_samples_leaf = 1
-#     , criterion = 'entropy'
-#     , bootstrap = False
-#     , random_state=RANDOM_STATE
+    # 'et', train_data_fill2
+    # , n_estimators = 1001
+    # , max_depth = 45
+    # , min_samples_split = 3
+    # , min_samples_leaf = 1
+    # , criterion = 'entropy'
+    # , bootstrap = False
+    # , random_state=RANDOM_STATE
 # )
-# F1 Score: xx
+# F1 Score: 0.17269544924154023
 
 ## ------------ 6. ada(adaboost)
 

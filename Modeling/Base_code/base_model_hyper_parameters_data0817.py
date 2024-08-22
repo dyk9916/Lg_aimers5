@@ -266,15 +266,15 @@
 # 4-1. total
 # train_model_All = train_and_evaluate_model(
 #     'rf', train_data
-#     , n_estimators = 1083
-#     , max_depth = 43
+#     , n_estimators = 1082
+#     , max_depth = 54
 #     , min_samples_split = 6
 #     , min_samples_leaf = 1
 #     , criterion = 'entropy'
 #     , class_weight = balanced
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: 0.2408026755852843
+# F1 Score: 0.24115044247787612
 
 # 4-2. Dam
 # train_model_Dam = train_and_evaluate_model(
@@ -305,28 +305,28 @@
 # 4-4. Fill1
 # train_model_Fill1 = train_and_evaluate_model(
 #     'rf', train_data_fill1
-#     , n_estimators = 1298
-#     , max_depth = 20
-#     , min_samples_split = 6
-#     , min_samples_leaf = 1
+#     , n_estimators = 804
+#     , max_depth = 69
+#     , min_samples_split = 7
+#     , min_samples_leaf = 5
 #     , criterion = 'entropy'
-#     , bootstrap = False
+#     , class_weight = balanced
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: 0.1932938856015779
+# F1 Score: 0.23151125401929262
 
 # 4-5. Fill2
 # train_model_Fill2 = train_and_evaluate_model(
 #     'rf', train_data_fill2
-#     , n_estimators = 2879
-#     , max_depth = 27
-#     , min_samples_split = 4
-#     , min_samples_leaf = 1
+#     , n_estimators = 1587
+#     , max_depth = 89
+#     , min_samples_split = 13
+#     , min_samples_leaf = 2
 #     , criterion = 'entropy'
-#     , bootstrap = False
+#     , class_weight = balanced
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: 0.18563922942206654
+# F1 Score: 0.21387940841865755
 
 ## ------------ 5. et(extratree)
 

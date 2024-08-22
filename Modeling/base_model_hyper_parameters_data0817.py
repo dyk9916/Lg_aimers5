@@ -94,21 +94,21 @@
 
 # 2-2. Dam
 # train_model_Dam = train_and_evaluate_model(
-#     'xgb', train_data_dam
-#     , n_estimators = 1509
-    # , learning_rate = 0.06418917852996714
-    # , max_depth = 6
-    # , alpha = 0.00017309557032608048
-    # , gamma = 0.00398067155434722
-    # , reg_alpha = 0.756006595834120
-    # , reg_lambda = 0.3962538649486449
-    # , colsample_bytree =0.8752205595930229
-    # , subsample = 0.224637741333797
-    # , objective = 'binary:logistic'
-    # , tree_method = 'exact'
-    # , random_state=RANDOM_STATE
+# 'xgb', train_data_dam
+#     , n_estimators = 1311
+#     , learning_rate = 0.016318207603555398
+#     , max_depth = 11
+#     , alpha = 0.0008483560483140717
+#     , gamma = 0.0003600586852990369
+#     , reg_alpha = 0.7188717585066139
+#     , reg_lambda = 0.09461249605420369
+#     , colsample_bytree =0.9385019586639102
+#     , subsample = 0.33697959705693487
+#     , objective = 'binary:logistic'
+#     , tree_method = 'exact'
+#     , random_state=RANDOM_STATE
 # )
-# F1 Score: 0.23582089552238802
+# F1 Score: 0.2385321100917431
 
 # 2-3. AutoClave
 # train_model_AutoClave = train_and_evaluate_model(
@@ -130,21 +130,21 @@
 
 # 2-4. Fill1
 # train_model_Fill1 = train_and_evaluate_model(
-#         'xgb', train_data_fill1,
-#     n_estimators = 1707, 
-#     learning_rate = 0.0321470219836192, 
-#     max_depth = 7, 
-#     alpha = 7.368872823521818e-05, 
-#     gamma = 0.0007930035188326916, 
-#     reg_alpha = 0.644199314174124, 
-#     reg_lambda = 0.588270569327407, 
-#     colsample_bytree = 0.883929103208459, 
-#     subsample = 0.2534703342501092,
-#     objective = 'binary:logistic',
-#     tree_method = 'exact',
-#     random_state=RANDOM_STATE
+    # 'xgb', train_data_fill1,
+    # n_estimators = 1829, 
+    # learning_rate = 0.013504420988968516, 
+    # max_depth = 8, 
+    # alpha = 1.4440086347923964e-05, 
+    # gamma = 0.0003743822704017995, 
+    # reg_alpha = 0.26222989463782354, 
+    # reg_lambda = 0.6678097220912773, 
+    # colsample_bytree = 0.6099958892807869, 
+    # subsample = 0.5943078693575067,
+    # objective = 'binary:logistic',
+    # tree_method = 'exact',
+    # random_state=RANDOM_STATE
 # )
-# F1 Score: 0.20763358778625954
+# F1 Score: 0.2297734627831715
 
 # 2-5. Fill2
 # train_model_Fill2 = train_and_evaluate_model(

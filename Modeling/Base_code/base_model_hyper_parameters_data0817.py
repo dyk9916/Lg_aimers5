@@ -287,7 +287,7 @@
 #     , bootstrap = False
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: 0.20075757575757575
+# F1 Score: 0.2136422136422136
 
 # 4-3. AutoClave
 # train_model_AutoClave = train_and_evaluate_model(
@@ -300,33 +300,33 @@
 #     , bootstrap = False
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: 0.2214765100671141
+# F1 Score: 0.21639344262295085
 
 # 4-4. Fill1
 # train_model_Fill1 = train_and_evaluate_model(
 #     'rf', train_data_fill1
-#     , n_estimators = 804
-#     , max_depth = 69
+#     , n_estimators = 1861
+#     , max_depth = 91
 #     , min_samples_split = 7
 #     , min_samples_leaf = 5
-#     , criterion = 'entropy'
-#     , class_weight = balanced
-#     , random_state=RANDOM_STATE
+#    , criterion = 'entropy'
+#    , class_weight = 'balanced'
+#    , random_state=RANDOM_STATE
 # )
-# F1 Score: 0.23151125401929262
+# F1 Score: 0.2207670720299345
 
 # 4-5. Fill2
 # train_model_Fill2 = train_and_evaluate_model(
 #     'rf', train_data_fill2
-#     , n_estimators = 1587
-#     , max_depth = 89
-#     , min_samples_split = 13
-#     , min_samples_leaf = 2
-#     , criterion = 'entropy'
-#     , class_weight = balanced
-#     , random_state=RANDOM_STATE
+#     , n_estimators = 2663
+#     , max_depth = 100
+#    , min_samples_split = 6
+#    , min_samples_leaf = 1
+#    , criterion = 'entropy'
+#    , class_weight = 'balanced'
+#    , random_state=RANDOM_STATE
 # )
-# F1 Score: 0.21387940841865755
+# F1 Score: 0.1924342105263158
 
 ## ------------ 5. et(extratree)
 

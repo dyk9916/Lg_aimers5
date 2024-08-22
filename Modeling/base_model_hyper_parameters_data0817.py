@@ -483,4 +483,91 @@
 # )
 # F1 Score: xx
 
-# ...
+# ... Adaboost
+
+# RANDOM_STATE = 42
+
+# base_estimator = DecisionTreeClassifier(
+#     max_depth=22,
+#     min_samples_split=5,
+#     min_samples_leaf=2,
+#     max_features=0.9449544624225188,
+#     # n_estimators=517,
+#     random_state=RANDOM_STATE
+# )
+
+# model_Dam = fit_all_train_data_function(
+#     'ada', train_data_dam
+#     , estimator=base_estimator
+#     , n_estimators=439
+#     , learning_rate=0.30985993372769294
+#     , random_state=RANDOM_STATE
+# )
+
+# base_estimator = DecisionTreeClassifier(
+#     max_depth=13,
+#     min_samples_split=34,
+#     min_samples_leaf=5,
+#     max_features=0.7473309094470472,
+#     # n_estimators=517,
+#     random_state=RANDOM_STATE
+# )
+
+# model_AutoClave = fit_all_train_data_function(
+#     'ada', train_data_autoclave
+#     , estimator=base_estimator
+#     , n_estimators=570
+#     , learning_rate=0.2040105705276999
+#     , random_state=RANDOM_STATE
+# )
+
+# base_estimator = DecisionTreeClassifier(
+#     max_depth=14,
+#     min_samples_split=33,
+#     min_samples_leaf=8,
+#     max_features=0.7113128413756866,
+#     # n_estimators=517,
+#     random_state=RANDOM_STATE
+# )
+
+# model_Fill1 = fit_all_train_data_function(
+#     'ada', train_data_fill1
+#     , estimator=base_estimator
+#     , n_estimators=913
+#     , learning_rate=0.055237331816147595
+#     , random_state=RANDOM_STATE
+# )
+
+# base_estimator = DecisionTreeClassifier(
+#     max_depth=7,
+#     min_samples_split=13,
+#     min_samples_leaf=8,
+#     max_features=0.6266118401157937,
+#     # n_estimators=517,
+#     random_state=RANDOM_STATE
+# )
+
+# model_Fill2 = fit_all_train_data_function(
+#     'ada', train_data_fill2
+#     , estimator=base_estimator
+#     , n_estimators=293
+#     , learning_rate=0.620377973483163
+#     , random_state=RANDOM_STATE
+# )
+
+# base_estimator = DecisionTreeClassifier(
+#     max_depth=6,
+#     min_samples_split=28,
+#     min_samples_leaf=7,
+#     max_features=0.7331591188366589,
+#     # n_estimators=517,
+#     random_state=RANDOM_STATE
+# )
+
+# model_All = fit_all_train_data_function(
+#     'ada', train_data
+#     , estimator=base_estimator
+#     , n_estimators=677
+#     , learning_rate=0.6713565955468803
+#     , random_state=RANDOM_STATE
+# )

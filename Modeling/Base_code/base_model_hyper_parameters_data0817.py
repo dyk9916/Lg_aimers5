@@ -177,7 +177,7 @@
 #     , bagging_temperature=10.55412053150983
 #     , border_count=255
 #     , scale_pos_weight=1.5636124382284884
-#     , 'grow_policy' = 'Lossguide'
+#     , grow_policy = 'Lossguide'
 #     , random_seed = RANDOM_STATE
 #     , eval_metric = 'F1'
 #     , logging_level = 'Silent'

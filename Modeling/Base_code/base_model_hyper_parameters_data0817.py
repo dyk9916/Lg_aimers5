@@ -354,7 +354,7 @@
 #     , bootstrap = False
 #     , random_state=RANDOM_STATE
 # )
-# F1 Score: 0.20063694267515925
+# F1 Score: 0.18757062146892653
 
 # 5-3. AutoClave
 # train_model_AutoClave = train_and_evaluate_model(

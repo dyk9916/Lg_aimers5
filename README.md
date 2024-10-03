@@ -1,5 +1,7 @@
 # LG_Aimers_5th 
 
+예선 : 12/740 | 본선 : 13/27
+
 ![image](https://github.com/user-attachments/assets/3c738c94-da27-4897-87fb-15c38eae1b2a)
 
 ## 0. 개요

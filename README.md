@@ -2,8 +2,8 @@
 
 예선 : 12/740 | 본선 : 13/27
   
-![image](https://github.com/user-attachments/assets/ba34e46f-053e-4d3e-af6b-1c5cae3853e5)  
-![image](https://github.com/user-attachments/assets/878d2fc9-931c-4fd1-a500-c5973af953ad)  
+![image](https://github.com/user-attachments/assets/ba34e46f-053e-4d3e-af6b-1c5cae3853e5)    
+![image](https://github.com/user-attachments/assets/d6b06f03-1741-4483-9012-cc681754c4fe)  
   
 ## 0. 개요
 LG Aimers에서 주관한 프로그램으로서 1달간의 온라인교육기간과 이후 온라인 해커톤을 1달간 진행하였습니다.  

@@ -1,5 +1,7 @@
 # LG_Aimers_5th 
 
+## 주제: 제품 이상 여부 판별 프로젝트
+
 예선 : 12/740 | 본선 : 13/27
   
 ![image](https://github.com/user-attachments/assets/ba34e46f-053e-4d3e-af6b-1c5cae3853e5)    
